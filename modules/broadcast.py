@@ -43,7 +43,7 @@ async def gcast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("`Sebentar nyet lagi di sebar nih kalo limit jangan salahin baron yah puki...`")
     er = 0
     done = 0
     err = ""
