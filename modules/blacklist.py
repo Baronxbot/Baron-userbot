@@ -25,7 +25,7 @@ from Ayra.dB.blacklist_db import (add_blacklist, get_blacklist, list_blacklist,
 from . import ayra_bot, ayra_cmd, events, get_string, udB
 
 
-@ayra_cmd(pattern="black( (.*)|$)", admins_only=True)
+@ayra_cmd(pattern="bl( (.*)|$)", admins_only=True)
 async def af(e):
     wrd = e.pattern_match.group(1).strip()
     chat = e.chat_id
